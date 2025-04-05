@@ -1,0 +1,108 @@
+WARNING: DATABASE_URL not set. PostgreSQL functionality will be limited.
+WARNING:root:Scapy not available or not usable. Real traffic capture disabled.
+INFO: Logger initialized with level INFO
+INFO: Starting ACO Secure IoT Routing App
+INFO: Loaded configuration from config.json
+INFO: PostgreSQL client initialized
+ERROR: Failed to initialize PostgreSQL database
+INFO: PostgreSQL connection established successfully
+INFO: AI Security Analyzer initialized with Gemini API
+INFO: AI Security Analyzer initialized successfully
+INFO: Protocol Analyzer initialized
+INFO: Protocol Analyzer initialized successfully
+INFO: Attack Detector initialized
+INFO: Attack Detector initialized successfully
+INFO: Vulnerability Predictor initialized
+INFO: Vulnerability Predictor initialized successfully
+INFO: Network graph initialized with 0 nodes and 0 edges
+INFO: Generated random network with 10 nodes and 10 edges
+INFO: ACO Router initialized with 10 nodes
+INFO: Security monitor initialized
+INFO: Network visualizer initialized
+INFO: Traffic monitor initialized
+INFO: Route display panel initialized
+INFO: Main window initialized
+(venv) (base) shell@0nyx:~/Downloads/AntNetRouter1$ sudo $(which python) main.py
+WARNING: DATABASE_URL not set. PostgreSQL functionality will be limited.
+WARNING:root:Scapy not available or not usable. Real traffic capture disabled.
+INFO: Logger initialized with level INFO
+INFO: Starting ACO Secure IoT Routing App
+INFO: Loaded configuration from config.json
+INFO: PostgreSQL client initialized
+ERROR: Failed to initialize PostgreSQL database
+INFO: PostgreSQL connection established successfully
+INFO: AI Security Analyzer initialized with Gemini API
+INFO: AI Security Analyzer initialized successfully
+INFO: Protocol Analyzer initialized
+INFO: Protocol Analyzer initialized successfully
+INFO: Attack Detector initialized
+INFO: Attack Detector initialized successfully
+INFO: Vulnerability Predictor initialized
+INFO: Vulnerability Predictor initialized successfully
+INFO: Network graph initialized with 0 nodes and 0 edges
+INFO: Generated random network with 10 nodes and 18 edges
+INFO: ACO Router initialized with 10 nodes
+INFO: Security monitor initialized
+INFO: Network visualizer initialized
+INFO: Traffic monitor initialized
+INFO: Route display panel initialized
+INFO: Main window initialized
+(venv) (base) shell@0nyx:~/Downloads/AntNetRouter1$ pip install scapy
+Collecting scapy
+  Downloading scapy-2.6.1-py3-none-any.whl.metadata (5.6 kB)
+Downloading scapy-2.6.1-py3-none-any.whl (2.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 10.5 MB/s eta 0:00:00
+Installing collected packages: scapy
+Successfully installed scapy-2.6.1
+(venv) (base) shell@0nyx:~/Downloads/AntNetRouter1$ sudo $(which python) main.py
+WARNING: DATABASE_URL not set. PostgreSQL functionality will be limited.
+INFO: Logger initialized with level INFO
+INFO: Starting ACO Secure IoT Routing App
+INFO: Loaded configuration from config.json
+INFO: PostgreSQL client initialized
+ERROR: Failed to initialize PostgreSQL database
+INFO: PostgreSQL connection established successfully
+INFO: AI Security Analyzer initialized with Gemini API
+INFO: AI Security Analyzer initialized successfully
+INFO: Protocol Analyzer initialized
+INFO: Protocol Analyzer initialized successfully
+INFO: Attack Detector initialized
+INFO: Attack Detector initialized successfully
+INFO: Vulnerability Predictor initialized
+INFO: Vulnerability Predictor initialized successfully
+INFO: Network graph initialized with 0 nodes and 0 edges
+INFO: Generated random network with 10 nodes and 16 edges
+INFO: ACO Router initialized with 10 nodes
+INFO: Security monitor initialized
+INFO: Network visualizer initialized
+INFO: Traffic monitor initialized
+INFO: Route display panel initialized
+INFO: Main window initialized
+INFO: Generated random network with 10 nodes and 16 edges
+INFO: ACO Router initialized with 10 nodes
+INFO: Security monitor initialized
+INFO: Cleared traffic monitor
+INFO: Cleared all routes
+INFO: Generated random network with 10 nodes
+INFO: Generated random network with 10 nodes and 15 edges
+INFO: ACO Router initialized with 10 nodes
+INFO: Security monitor initialized
+INFO: Cleared traffic monitor
+INFO: Cleared all routes
+INFO: Generated random network with 10 nodes
+INFO: Generated random network with 10 nodes and 15 edges
+INFO: ACO Router initialized with 10 nodes
+INFO: Security monitor initialized
+INFO: Cleared traffic monitor
+INFO: Cleared all routes
+INFO: Generated random network with 10 nodes
+INFO: Generated random network with 10 nodes and 13 edges
+INFO: ACO Router initialized with 10 nodes
+INFO: Security monitor initialized
+INFO: Cleared traffic monitor
+INFO: Cleared all routes
+INFO: Generated random network with 10 nodes
+INFO: Finding route from 4 to 2
+INFO: Route found: [4, 1, 2] with cost 13.94
+INFO: Displayed route from 4 to 2
+INFO: Found route from 4 to 2: [4, 1, 2]

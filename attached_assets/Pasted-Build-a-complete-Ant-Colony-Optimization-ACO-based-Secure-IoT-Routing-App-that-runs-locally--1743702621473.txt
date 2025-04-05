@@ -1,0 +1,41 @@
+Build a complete **Ant Colony Optimization (ACO)-based Secure IoT Routing App** that runs **locally** on a user's machine. Do not make a cloud-based web app. Instead, generate **all necessary files** so I can **download and run them locally**.
+
+### 🔹 Core Features:
+1. **ACO-Based Secure Routing**:
+   - Implement **Ant Colony Optimization (ACO)** to find the most secure and efficient paths in an IoT network.
+   - If a node (device) is **compromised or suspicious**, reduce its pheromone level dynamically.
+   - Ensure real-time updating of pheromone levels based on detected security threats.
+
+2. **Simple Yet Powerful GUI**:
+   - Use **Tkinter (Python)** or **Electron.js (JavaScript)** for an easy-to-use **desktop interface**.
+   - The GUI should display:
+     - A **network visualization** of IoT devices.
+     - **Traffic analysis logs** (normal vs. suspicious activities).
+     - **Optimal secure routes** found by the ACO algorithm.
+
+3. **Database Integration (MongoDB)**:
+   - Store **network traffic data**, including device activity, security scores, and routing logs.
+   - Provide **APIs or direct queries** to fetch and analyze stored data.
+
+4. **Security Enhancements**:
+   - Monitor **anomalous behavior** (e.g., excessive requests, unusual data flow).
+   - If a node **acts suspiciously**, flag it and update routing dynamically.
+
+5. **Local Execution Setup**:
+   - Generate a **setup script (install.sh or setup.py)** to install dependencies.
+   - The app should run **on Linux & Windows without relying on an online backend**.
+
+### 🔹 Additional Requirements:
+- **Make all project files downloadable** for **local execution**.
+- Do **not** use cloud-based databases or hosting services.
+- Include **clear documentation** on how to install and run the app locally.
+
+Generate **all the required files**, including:
+✅ Python files for **ACO routing & security logic**  
+✅ GUI files using **Tkinter or Electron.js**  
+✅ MongoDB integration scripts  
+✅ A **setup script** for easy installation  
+
+Make sure the app follows **best practices for cybersecurity and performance**. The UI should be **clean, intuitive, and informative**.  
+
+---

@@ -1,0 +1,39 @@
+INFO: Logger initialized with level INFO
+INFO: Starting ACO Secure IoT Routing App
+INFO: Loaded configuration from config.json
+INFO: MongoDB client initialized for localhost:27017/iot_security
+ERROR: Failed to connect to MongoDB server: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67eece0640424f168379b9de, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO: MongoDB connection established successfully
+INFO: Network graph initialized with 0 nodes and 0 edges
+INFO: Generated random network with 10 nodes and 12 edges
+INFO: ACO Router initialized with 10 nodes
+INFO: Security monitor initialized
+INFO: Network visualizer initialized
+INFO: Traffic monitor initialized
+INFO: Route display panel initialized
+INFO: Main window initialized
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/home/shell/anaconda3/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/shell/Downloads/AntNetRouter/gui/main_window.py", line 1028, in _simulate_attack
+    node_id = random.choice(list(self.graph.nodes))
+              ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'
+ERROR: Error in simulation: name 'random' is not defined
+Traceback (most recent call last):
+  File "/home/shell/Downloads/AntNetRouter/gui/main_window.py", line 459, in _run_simulation
+    is_attack = random.random() < 0.05
+                ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'
+INFO: Simulation started
+INFO: Simulation stopped
+ERROR: Error in simulation: name 'random' is not defined
+Traceback (most recent call last):
+  File "/home/shell/Downloads/AntNetRouter/gui/main_window.py", line 459, in _run_simulation
+    is_attack = random.random() < 0.05
+                ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'
+INFO: Simulation started
+INFO: Simulation stopped
